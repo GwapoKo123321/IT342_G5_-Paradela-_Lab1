@@ -1,0 +1,172 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #2d2d2d;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+  color: #61dafb;
+}
+
+/* Forms & Cards */
+.auth-form-container, .dashboard-container {
+  background-color: #252526;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #3e3e42;
+}
+
+h2, h1 {
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #3e3e42;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #61dafb;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0063b1;
+}
+
+button.logout-btn {
+  background-color: #d13438;
+}
+
+button.logout-btn:hover {
+  background-color: #a4262c;
+}
+
+
+.message {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.success {
+  color: #51cf66;
+}
+
+/* Fullscreen Dashboard Layout */
+.fullscreen-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Takes up most of the screen */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Big Welcome Text */
+.welcome-text {
+  font-size: 4rem; /* HUGE text */
+  font-weight: 800;
+  margin: 0;
+  background: linear-gradient(to right, #61dafb, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.user-subtitle {
+  font-size: 2rem;
+  color: #a0a0a0;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.dashboard-content {
+  margin: 40px 0;
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+/* Big Logout Button */
+.logout-btn-large {
+  width: 200px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #d13438;
+  color: #d13438;
+  border-radius: 50px; /* Rounded pill shape */
+  transition: all 0.3s ease;
+}
+
+.logout-btn-large:hover {
+  background-color: #d13438;
+  color: white;
+  transform: scale(1.05); /* Slight grow effect */
+  box-shadow: 0 0 15px rgba(209, 52, 56, 0.5);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

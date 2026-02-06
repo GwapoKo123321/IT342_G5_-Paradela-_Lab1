@@ -1,0 +1,26 @@
+# Project Task Checklist
+
+## DONE
+- [x] Initialize Project Directory Structure (Backend, Web, Docs) - [INSERT COMMIT HASH HERE]
+- [x] Database: Setup MySQL Connection and Create Database - [INSERT COMMIT HASH HERE]
+- [x] Backend: Setup Spring Boot Project with Dependencies - [INSERT COMMIT HASH HERE]
+- [x] Backend: Implement User Entity (Model) - [INSERT COMMIT HASH HERE]
+- [x] Backend: Create User Repository - [INSERT COMMIT HASH HERE]
+- [x] Backend: Configure Spring Security & BCrypt Encryption - [INSERT COMMIT HASH HERE]
+- [x] Backend: Implement Auth Controller (Register/Login Endpoints) - [INSERT COMMIT HASH HERE]
+- [x] Web: Implement Register Page - [INSERT COMMIT HASH HERE]
+- [x] Web: Implement Login Page - [INSERT COMMIT HASH HERE]
+- [x] Web: Implement Protected Dashboard & Logout - [INSERT COMMIT HASH HERE]
+
+## IN-PROGRESS
+- [ ] Documentation: Update FRS PDF with ERD and Class Diagrams
+- [ ] Documentation: Capture and Add Web UI Screenshots to /docs
+- [ ] Web: Initialize React Application - [INSERT COMMIT HASH HERE]
+- [ ] Web: Create API Service (Axios Connection) - [INSERT COMMIT HASH HERE]
+- [ ] Web: Apply UI Styling (Dark Mode & Layouts) - [INSERT COMMIT HASH HERE]
+
+
+## TODO
+- [ ] Mobile Application Development (Session 2)
+- [ ] Implement Password Recovery Features
+- [ ] Unit Testing for Backend Services
