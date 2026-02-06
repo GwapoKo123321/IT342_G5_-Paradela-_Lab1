@@ -1,24 +1,21 @@
 # Project Task Checklist
 
 ## DONE
-- [x] Initialize Project Directory Structure (Backend, Web, Docs) - [INSERT COMMIT HASH HERE]
-- [x] Database: Setup MySQL Connection and Create Database - [INSERT COMMIT HASH HERE]
-- [x] Backend: Setup Spring Boot Project with Dependencies - [INSERT COMMIT HASH HERE]
-- [x] Backend: Implement User Entity (Model) - [INSERT COMMIT HASH HERE]
-- [x] Backend: Create User Repository - [INSERT COMMIT HASH HERE]
-- [x] Backend: Configure Spring Security & BCrypt Encryption - [INSERT COMMIT HASH HERE]
-- [x] Backend: Implement Auth Controller (Register/Login Endpoints) - [INSERT COMMIT HASH HERE]
-- [x] Web: Implement Register Page - [INSERT COMMIT HASH HERE]
-- [x] Web: Implement Login Page - [INSERT COMMIT HASH HERE]
-- [x] Web: Implement Protected Dashboard & Logout - [INSERT COMMIT HASH HERE]
-
-## IN-PROGRESS
-- [ ] Documentation: Update FRS PDF with ERD and Class Diagrams
-- [ ] Documentation: Capture and Add Web UI Screenshots to /docs
-- [ ] Web: Initialize React Application - [INSERT COMMIT HASH HERE]
-- [ ] Web: Create API Service (Axios Connection) - [INSERT COMMIT HASH HERE]
-- [ ] Web: Apply UI Styling (Dark Mode & Layouts) - [INSERT COMMIT HASH HERE]
-
+- [x] Initialize Project Directory Structure (Backend, Web, Docs) - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Database: Setup MySQL Connection and Create Database - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Backend: Setup Spring Boot Project with Dependencies - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Backend: Implement User Entity (Model) - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Backend: Create User Repository - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Backend: Configure Spring Security & BCrypt Encryption - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Backend: Implement Auth Controller (Register/Login Endpoints) - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Initialize React Application - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Create API Service (Axios Connection) - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Implement Register Page - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Implement Login Page - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Implement Protected Dashboard & Logout - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Web: Apply UI Styling (Dark Mode & Layouts) - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Documentation: Update FRS PDF with ERD and Class Diagrams - 7b6f05a283580081e67ef620d53adcf0baa31abb
+- [x] Documentation: Capture and Add Web UI Screenshots to /docs - 7b6f05a283580081e67ef620d53adcf0baa31abb
 
 ## TODO
 - [ ] Mobile Application Development (Session 2)
